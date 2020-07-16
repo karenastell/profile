@@ -58,7 +58,7 @@ body {
 
 
 .portfolio-image {
-    height: 400px;
+    width: 400px;
     border: 1px solid white;
 }
 
@@ -66,6 +66,9 @@ body {
     margin-bottom: 50px !important;
 }
 
+.link-margin {
+    margin-top: 20px;
+}
 .port-list {
     margin-top: 30px;
 }
