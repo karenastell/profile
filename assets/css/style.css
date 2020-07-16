@@ -1,6 +1,6 @@
 body {
   background-image: url(../images/fence.jpg);
-  height: 5000px;
+  height: 100%;
   font-family: 'Nothing You Could Do', cursive;
 }
 
@@ -30,8 +30,20 @@ body {
 }
 
 .main-margin {
-    margin-top: 40px;
+    margin: 40px;
     font-size: 20px;
     font-weight: bold;
 }
 
+.foot {
+    color: white;
+    padding-top: 3rem;
+    padding-right: 1.5rem;
+    padding-bottom: 6rem;
+    padding-left: 1.5rem;
+}
+.footer-font {
+    font-size: 24px;
+    font-weight: bolder;
+    font-family: 'Amatic SC', cursive;
+}
