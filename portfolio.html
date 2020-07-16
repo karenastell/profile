@@ -1,15 +1,294 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/assets/css/normalize.css">
-    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.0/css/bulma.min.css">
-    <link rel="stylesheet" href="/assets/css/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/assets/css/normalize.css" />
+    <link
+      rel="stylesheet"
+      href="path/to/font-awesome/css/font-awesome.min.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@0.9.0/css/bulma.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Nothing+You+Could+Do&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./assets/css/style.css" />
     <title>Karen Astell</title>
-</head>
-<body>
+  </head>
+  <body>
+    <section class="navbar-font hero white-font is-medium">
+      <!-- Hero head: will stick at the top -->
+      <div class="hero-head">
+        <nav class="navbar">
+          <!-- <div class="container"> -->
+          <div class="navbar-brand">
+            <a class="navbar-item is-active" href="index.html">
+              <span class="white-font navbar-font bold">Home</span>
+            </a>
+            <a class="navbar-item is-active" href="portfolio.html">
+              <span class="white-font navbar-font bold">Portfolio</span>
+            </a>
+            <a class="navbar-item is-active" href="contact.html">
+              <span class="white-font navbar-font bold">Contact</span>
+            </a>
+            <span class="navbar-burger burger" data-target="navbarMenuHeroA">
+              <span></span>
+              <span></span>
+              <span></span>
+            </span>
+          </div>
+          <div id="navbarMenuHeroA" class="navbar-menu">
+            <div class="navbar-end">
+              <span class="navbar-item">
+                <a
+                  class="white-font bold nav-link-margin is-inverted"
+                  href="https://github.com/karenastell"
+                >
+                  <span class="icon">
+                    <i class="fab fa-github"></i>
+                  </span>
+                  <span class="navbar-font">GitHub</span>
+                </a>
+                <a
+                  class="white-font bold"
+                  target="_blank"
+                  href="https://www.linkedin.com/in/karen-astell/"
+                >
+                  <span class="icon">
+                    <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+                  </span>
+                  <span class="navbar-font">LinkedIn</span>
+                </a>
+              </span>
+            </div>
+          </div>
+          <!-- </div> -->
+        </nav>
+      </div>
+    </section>
+
+    <div class="container main-margin">
+      <h1 class="white-font title is-1 center underline main-header">
+        Projects
+      </h1>
+
+      <div class="columns white-font">
+        <div class="column">
+          <a
+            target="_blank"
+            href="https://fast-mountain-43531.herokuapp.com/index.html"
+          >
+            <img
+              class="portfolio-image"
+              src="./assets/images/recipe-box.jpng.png"
+              alt="Recipe Box Thumbnail"
+            />
+          </a>
+        </div>
+        <div class="column is-three-fifths project-margin">
+          <h1 class="title is-2 white-font">Recipe Box</h1>
+          <div class="white-font">
+            <p>
+              This full stack blog application allows a user to search recipes
+              that have been inputted into the application, create their own
+              recipes to share, view favorite recipes, and share recipes by
+              email or social media.
+            </p>
+            <p class="port-list">This application was build using:</p>
+            <div>
+              <div class="columns">
+                <div class="column">
+                  <ul class="ul-style">
+                    <li>HTML5</li>
+                    <li>CSS</li>
+                    <li>Bootstrap</li>
+                    <li>jQuery</li>
+                    <li>JavaScript</li>
+                    <li>NodeJS</li>
+                  </ul>
+                </div>
+                <div class="column">
+                  <ul class="ul-style column">
+                    <li>MySQL</li>
+                    <li>Sequelize</li>
+                    <li>Express</li>
+                    <li>Express-fileupload</li>
+                    <li>Nodemailer</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="columns column-margin white-font">
+        <div class="column">
+          <a href="https://lynnboudreau.github.io/ProjectOne/" target="_blank">
+            <img
+              class="portfolio-image"
+              src="./assets/images/booze-brews.png"
+              alt="Recipe Box Thumbnail"
+            />
+          </a>
+        </div>
+        <div class="column is-three-fifths project-margin">
+            <h1 class="title is-2 white-font">Booze and Brews</h1>
+            <div class="white-font">
+              <p>
+                This front end application allows a user to search for breweries by city/state and search for cocktail recipes by ingredient.  Third party APIs were used for the cocktail and brewery information:
+              </p>
+              <p>
+                GoogleMapsAPI, OpenBreweryDB, and CocktailDB
+              </p>
+              <p class="port-list">This application was build using:</p>
+              <div>
+                <div class="columns">
+                  <div class="column">
+                    <ul class="ul-style">
+                      <li>HTML5</li>
+                      <li>CSS</li>
+                      <li>Bulma</li>
+                      <li>jQuery</li>
+                      <li>JavaScript</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+      <div class="columns column-margin white-font">
+        <div class="column">
+          <a href="https://lynnboudreau.github.io/ProjectOne/" target="_blank">
+            <img
+              class="portfolio-image"
+              src="./assets/images/booze-brews.png"
+              alt="Recipe Box Thumbnail"
+            />
+          </a>
+        </div>
+        <div class="column is-three-fifths project-margin">
+            <h1 class="title is-2 white-font">Booze and Brews</h1>
+            <div class="white-font">
+              <p>
+                
+              </p>
+              <p>
+                GoogleMapsAPI, OpenBreweryDB, and CocktailDB
+              </p>
+              <p class="port-list">This application was build using:</p>
+              <div>
+                <div class="columns">
+                  <div class="column">
+                    <ul class="ul-style">
+                      <li>HTML5</li>
+                      <li>CSS</li>
+                      <li>Bulma</li>
+                      <li>jQuery</li>
+                      <li>JavaScript</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+      <div class="columns column-margin white-font">
+        <div class="column">
+          <a href="https://lynnboudreau.github.io/ProjectOne/" target="_blank">
+            <img
+              class="portfolio-image"
+              src="./assets/images/booze-brews.png"
+              alt="Recipe Box Thumbnail"
+            />
+          </a>
+        </div>
+        <div class="column is-three-fifths project-margin">
+            <h1 class="title is-2 white-font">Booze and Brews</h1>
+            <div class="white-font">
+              <p>
+      
+              </p>
+              <p>
+                GoogleMapsAPI, OpenBreweryDB, and CocktailDB
+              </p>
+              <p class="port-list">This application was build using:</p>
+              <div>
+                <div class="columns">
+                  <div class="column">
+                    <ul class="ul-style">
+                      <li>HTML5</li>
+                      <li>CSS</li>
+                      <li>Bulma</li>
+                      <li>jQuery</li>
+                      <li>JavaScript</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+      <div class="columns column-margin white-font">
+        <div class="column">
+          <a href="https://lynnboudreau.github.io/ProjectOne/" target="_blank">
+            <img
+              class="portfolio-image"
+              src="./assets/images/booze-brews.png"
+              alt="Recipe Box Thumbnail"
+            />
+          </a>
+        </div>
+        <div class="column is-three-fifths project-margin">
+            <h1 class="title is-2 white-font">Booze and Brews</h1>
+            <div class="white-font">
+              <p>
+             
+              </p>
+              <p>
+                GoogleMapsAPI, OpenBreweryDB, and CocktailDB
+              </p>
+              <p class="port-list">This application was build using:</p>
+              <div>
+                <div class="columns">
+                  <div class="column">
+                    <ul class="ul-style">
+                      <li>HTML5</li>
+                      <li>CSS</li>
+                      <li>Bulma</li>
+                      <li>jQuery</li>
+                      <li>JavaScript</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+    </div>
+
+    <footer class="foot footer-font">
+      <div class="content has-text-centered">
+        <p>
+          <strong class="white-font">Karen Astell</strong>
+          <i class="fa fa-circle-o" aria-hidden="true"></i>
+          (603) 770 7658
+          <i class="fa fa-circle-o" aria-hidden="true"></i>
+          <a href="mailto:karenastell@gmail.com"
+            ><span class="white-font">KarenAstell@gmail.com</span>
+          </a>
+        </p>
+      </div>
+    </footer>
+    <script
+      defer
+      src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"
+    ></script>
     <script src="/assets/js/portfolio.js"></script>
-</body>
+  </body>
 </html>
