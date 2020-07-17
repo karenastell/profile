@@ -89,3 +89,9 @@ body {
     margin-top: 40px;
     border-top: 1px solid white;
 }
+
+.form-margin {
+    margin: 40px;
+    border: 1px solid white;
+    padding: 100px;
+}
