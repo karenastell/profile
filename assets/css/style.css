@@ -66,6 +66,10 @@ body {
     margin-bottom: 50px !important;
 }
 
+.brand-statement {
+    text-align: justify;
+}
+
 .link-margin {
     margin-top: 20px;
 }
