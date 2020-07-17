@@ -84,7 +84,8 @@
         </nav>
       </div>
     </section>
-    <main class="container form-margin">
+
+    <div class="container form-margin">
       <div class="field">
         <h1 class="title is-1 white-font center underline">Contact Me</h1>
         <label class="label white-font">Name</label>
@@ -96,39 +97,43 @@
         <label class="label white-font">Email</label>
         <div class="control has-icons-left has-icons-right">
           <input
-            class="email input is-danger"
+            class="email input"
             type="email"
             placeholder="example@example.com"
           />
           <span class="icon is-small is-left">
             <i class="fas fa-envelope"></i>
           </span>
-          <span class="icon is-small is-right">
+          <!-- <span class="icon is-small is-right">
             <i class="fas fa-exclamation-triangle"></i>
-          </span>
+          </span> -->
         </div>
-        <p class="help is-danger">This email is invalid</p>
+        <!-- <p class="help is-danger">This email is invalid</p> -->
       </div>
 
       <div class="field">
         <label class="label white-font">Message</label>
         <div class="control">
-          <textarea class="textarea message" placeholder="Message" rows="15"></textarea>
+          <textarea
+            class="textarea message"
+            placeholder="Message"
+            rows="15"
+          ></textarea>
         </div>
       </div>
 
       <div class="field is-grouped">
         <div class="control">
           <button
-          class="white-font bold nav-link-margin is-inverted"
-          href="https://github.com/karenastell"
-          target="_blank"
-        >
-          <span class="navbar-font">Submit</span>
-        </button>
+            class="button font"
+            href="https://github.com/karenastell"
+            target="_blank"
+          >
+            Submit
+          </button>
         </div>
       </div>
-    </main>
+    </div>
     <footer class="foot footer-font">
       <div class="content has-text-centered">
         <p>
@@ -136,7 +141,7 @@
           <i class="far fa-circle"></i>
           (603) 770 7658
           <i class="far fa-circle"></i>
-          <a href="mailto:karenastell@gmail.com"
+          <a href="mailto:karenastell@gmail.com" target="_blank"
             ><span class="white-font">KarenAstell@gmail.com</span>
           </a>
         </p>
