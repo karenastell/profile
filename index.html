@@ -18,75 +18,67 @@
       href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Nothing+You+Could+Do&display=swap"
       rel="stylesheet"
     />
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;469;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./assets/css/style.css" />
     <link rel="icon" href="./assets/images/initials.png" />
     <title>Karen Astell</title>
   </head>
-  <body class="has-navbar-fixed-bottom">
-    <section class="navbar-font hero white-font is-medium">
-      <!-- Hero head: will stick at the top -->
-      <div class="hero-head">
-        <nav class="navbar">
-          <div class="container nav-margin">
-            <div class="navbar-brand">
-              <a class="navbar-item" href="index.html">
-                <span class="white-font navbar-font bold">Home</span>
-              </a>
-              <a class="navbar-item" href="portfolio.html">
-                <span class="white-font navbar-font bold">Portfolio</span>
-              </a>
-              <a class="navbar-item" href="contact.html">
-                <span class="white-font navbar-font bold">Contact</span>
-              </a>
-              <span
-                class="white-font navbar-burger burger"
-                data-target="navbarMenuHeroA"
-              >
-                <span></span>
-                <span></span>
-                <span></span>
+  <body>
+    <nav  role="navigation" aria-label="main navigation">
+      <div class="navbar-brand">
+        <a class="navbar-item" href="index.html">
+          <span class="white-font navbar-font bold">Home</span>
+        </a>
+        <a class="navbar-item" href="portfolio.html">
+          <span class="white-font navbar-font bold">Portfolio</span>
+        </a>
+        <a class="navbar-item" href="contact.html">
+          <span class="white-font navbar-font bold">Contact</span>
+        </a>
+    
+        <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </a>
+        <div class="navbar-end">
+          <span class="navbar-item">
+            <a
+              class="white-font bold nav-link-margin is-inverted"
+              href="https://github.com/karenastell"
+              target="_blank"
+            >
+              <span class="icon">
+                <i class="fab fa-github"></i>
               </span>
-            </div>
-            <div id="navbarMenuHeroA" class="navbar-menu">
-              <div class="navbar-end">
-                <span class="navbar-item">
-                  <a
-                    class="white-font bold nav-link-margin is-inverted"
-                    href="https://github.com/karenastell"
-                    target="_blank"
-                  >
-                    <span class="icon">
-                      <i class="fab fa-github"></i>
-                    </span>
-                    <span class="navbar-font">GitHub</span>
-                  </a>
-                  <a
-                    class="white-font bold nav-link-margin"
-                    target="_blank"
-                    href="https://www.linkedin.com/in/karen-astell/"
-                  >
-                    <span class="icon">
-                      <i class="fab fa-linkedin"></i>
-                    </span>
-                    <span class="navbar-font">LinkedIn</span>
-                  </a>
-                  <a
-                    class="white-font bold is-inverted"
-                    href="./assets/files/Resume.pdf"
-                    target="_blank"
-                  >
-                    <span class="icon">
-                      <i class="far fa-file-pdf"></i>
-                    </span>
-                    <span class="navbar-font">Resume</span>
-                  </a>
-                </span>
-              </div>
-            </div>
-          </div>
-        </nav>
+              <span class="navbar-font">GitHub</span>
+            </a>
+            <a
+              class="white-font bold nav-link-margin"
+              target="_blank"
+              href="https://www.linkedin.com/in/karen-astell/"
+            >
+              <span class="icon">
+                <i class="fab fa-linkedin"></i>
+              </span>
+              <span class="navbar-font">LinkedIn</span>
+            </a>
+            <a
+              class="white-font bold is-inverted"
+              href="./assets/files/Resume.pdf"
+              target="_blank"
+            >
+              <span class="icon">
+                <i class="far fa-file-pdf"></i>
+              </span>
+              <span class="navbar-font">Resume</span>
+            </a>
+          </span>
+        </div>
       </div>
-
+      
+    </nav>
+    <section class="navbar-font hero white-font is-medium">
       <!-- Hero content: will be in the middle -->
       <div class="hero-body">
         <div class="container has-text-centered">
@@ -120,7 +112,7 @@
       </main>
     </div>
     
-    <div class="foot" role="navigation" aria-label="main navigation">
+    <div class="foot foot-font" role="navigation" aria-label="main navigation">
       <div class="content has-text-centered">
         <p>
           <strong class="white-font">Karen Astell</strong>
